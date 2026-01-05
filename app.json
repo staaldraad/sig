@@ -3,6 +3,7 @@
   "scripts": {
   },
   "env": {
+	  "secretkey":"sb_secret_aip7dIpBP78FQoGz0Hv9ag_9_iFhCr4"
   },
   "formation": {
   },
